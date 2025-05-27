@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:"lemon";
+            src: url("lemonade.ttf") format("truetype"); 
+            font-family: "milk"
+            url(LEMONMILK-Medium.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+                    Tipos de format()
+                   -  opentype (otf)
+                   -  truetype (ttf)
+                      embedded-opentype
+                      truetype-aat (Apple Advanced Typography)
+                      svg
+            */
+        }
+        body{
+            font: normal normal 17px arial, sans-serif;
+            text-align: justify;
+        }
+
+        h1{
+            font: normal bold 40px "lemon", Times, serif;
+        }
+
+        p{
+            font: normal lighter 20px "milk", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat placeat consectetur earum a. Saepe modi, maxime ea nihil optio, quas mollitia culpa laudantium in rem architecto, ullam earum deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam non dignissimos earum harum deleniti excepturi culpa dolores vitae qui accusantium corporis alias in ut error voluptates vero nisi, optio hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deleniti ad beatae ducimus. Illum, sequi. Nam facere voluptatum consequuntur ullam. Suscipit exercitationem nihil eaque eum harum corrupti voluptas fugiat reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem aliquid vero, provident nemo laudantium quisquam delectus, consequatur, perspiciatis impedit sequi. Pariatur corporis, ipsam ducimus possimus nemo eligendi dolorem ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro assumenda, voluptatibus adipisci numquam tempora quos, expedita modi veniam maxime soluta esse earum saepe. Ex natus nostrum non doloremque molestias ipsum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi maxime quidem voluptates soluta ratione, ad illum. Laudantium, eius! Earum repudiandae rerum exercitationem officia, aut ut nisi beatae unde commodi vero?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, praesentium dolore cum porro accusantium quibusdam officiis minima, distinctio doloremque molestias dolor consequuntur et consectetur ipsa repellendus vel similique cupiditate tenetur.</p>
+</body>
+</html>

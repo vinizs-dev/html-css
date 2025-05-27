@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>se diminuirmos o tamanho do navegador, ou abrimos por outros dispositivos, o tamanho das imagens vao ser readaptadas</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Imagem300x300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Imagem700x700.png" type="Image/png"> <!--o source funciona como se fosse um if, ou seja, se a imagem carregada tiver o max width (largura maxima) maior q o escolhido, carregará a imagem que esta no srcset-->
+        <img src="Imagens/Imagem1000x1000.png" alt="imagem grande">
+    </picture> <!--como se fosse a tag img, mas permite a criação de vários ''sources'' (várias fontes)-->
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>vamos Reproduzir áudios em HTML5</p>
+    <audio src="midia/guanacast.mp3" controls></audio>
+    <hr>
+    <p>outro jeito</p>
+    <audio preload="none"controls> <!--o preload é essencial e tem algumas opcoes: auto (carrega tudo, nao recomendavel pra arquivo grande); metadata(carrega algumas informacoes, como duração e tamanho); none(não carrega nada, so quando da play)-->
+        <source src="midia/guanacast.mp3" type="audio/mpeg">
+        <source src="midia/guanacast.ogg" type="audio/ogg">
+        <source src="midia/guanacast.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao reproduz audio.</p>
+    </audio>
+</body>
+</html>

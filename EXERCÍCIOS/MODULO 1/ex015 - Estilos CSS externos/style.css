@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+background-color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;}
+
+h1 {
+color: rgb(115, 248, 170);}
+
+h2 {
+color: rgb(35, 117, 86);}
+
+p{
+text-align: justify; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'TrebucMS', sans-serif; font-size: medium;}

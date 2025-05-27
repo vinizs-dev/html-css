@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+               # = id
+               . = class
+               : = pseudo-class
+               :: = pseudo-element
+               > = filho
+        */
+        body{
+            font: normal normal 16px Verdana;
+        }
+
+        a{
+            color: rgb(66, 66, 66);
+            text-decoration: none; /* tirar sublinhado */
+        }
+
+        a:visited{
+            color: rgb(34, 34, 34);
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a::after{ /* : = pseudo-classe; :: = pseudo-elementos*/
+            content: " link";
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://github.com/veeh011" target="_blank">Github</a></li>
+        <li><a href="https://x.com/prod_veH" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/veeh011_/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>

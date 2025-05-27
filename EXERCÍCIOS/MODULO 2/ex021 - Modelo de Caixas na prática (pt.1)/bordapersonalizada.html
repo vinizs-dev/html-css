@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        header{
+            border: 20px solid transparent; /*nao pode tirar a borda*/
+            padding: 10px;
+            border-image: url(borda.png) 35 stretch;
+            /* SHORTHAND ACIMA:
+            border-image-source: url(borda.png);
+            border-image-slice: 35;
+            border-image-repeat: stretch; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teste de Borda</h1>
+    </header>
+</body>
+</html>

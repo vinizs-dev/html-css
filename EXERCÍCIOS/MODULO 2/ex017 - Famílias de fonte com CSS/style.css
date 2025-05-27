@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Medidas Absolutas
+cm, mm, in(polegadas), px, pt, pc(paico)
+
+Medidas Relativas
+em, ex, rem, VW, vh, %
+16px geralmente = 1em
+-----------------------------
+font-weight = peso da fonte (lighter, normal, bold, bolder)
+font-style = estilo da fonte (italico, normal...)
+font-size = tamanho da fonte
+font-family = qual fonte sera usada
+text-decoration = decoração no texto
+------------------------------
+shorthand font
+font-style -> font-weight -> font-size -> font-family */

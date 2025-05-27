@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Outfit:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root{
+    --cor1: #EEF5DB;
+    --cor2: #7D7461;
+    --cor3: #4b2e22;
+    --cor4: #A4B0F5;
+    --cor5: #0C1B33;
+
+    --fonte-titulos: "Special Gothic Expanded One", sans-serif;
+    --fonte-textos: "Outfit", sans-serif;
+    --fonte-variacao: "Comfortaa", sans-serif;
+    --fonte-variacao-serif: "Fraunces", serif;
+    --fonte-titulos-serif: "Cormorant Infant", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: var(--cor5);
+}
+
+
+header{
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.39);
+    background-color: var(--cor1);
+    width: auto;
+    height: auto;
+}
+header h1{
+    text-align: center;
+    font: normal normal 100px var(--fonte-titulos);
+    color: var(--cor5);
+}
+header h2{
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal 40px var(--fonte-textos);
+    color: var(--cor5);
+}
+header nav{
+    font: normal bold 15px var(--fonte-variacao);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    padding: 0px 5px;
+    margin: 0px 8px;
+    text-decoration: none;
+    color: var(--cor5);
+}
+a:hover{
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+
+
+main h2{
+    font: normal lighter 100px var(--fonte-variacao-serif);
+    color: var(--cor4);
+    text-align: center;
+    padding-top: 50px;
+}
+main h3{
+    font: normal normal 30px var(--fonte-variacao);
+    color: var(--cor1);
+    text-align: center;
+    padding: 15px;
+}
+main p.center{
+    font: normal lighter 20px var(--fonte-textos);
+    color: var(--cor1);
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+main nav{
+    font: normal bold 19px var(--fonte-variacao);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+main nav a{
+    color: var(--cor4);
+}
+main nav a:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    transform: color var(--cor1);
+    border-radius: 3px;
+    transition-duration: .4s;
+    padding: 7px 10px;
+}
+div nav:hover{
+    transform: scale(.9);
+    transition-duration: .4s;
+}
