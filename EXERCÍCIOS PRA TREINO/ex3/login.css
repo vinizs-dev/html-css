@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Outfit:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root{
+    --cor1: #EEF5DB;
+    --cor2: #7D7461;
+    --cor3: #4b2e22;
+    --cor4: #A4B0F5;
+    --cor5: #0C1B33;
+
+    --fonte-titulos: "Special Gothic Expanded One", sans-serif;
+    --fonte-textos: "Outfit", sans-serif;
+    --fonte-variacao: "Comfortaa", sans-serif;
+    --fonte-variacao-serif: "Fraunces", serif;
+    --fonte-titulos-serif: "Cormorant Infant", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: var(--cor5);
+}
